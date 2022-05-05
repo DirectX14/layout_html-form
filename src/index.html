@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
+    <h1 class="title">HTML Form</h1>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
 
-      <div class="input__group">
-        <h4 class="input__header">Personal information</h4>
+      <fieldset class="input__group">
+        <legend class="input__header">Personal information</legend>
 
         <div class="input__one">
           <label for="surname" class="input__label">Surname:</label>
@@ -73,10 +73,10 @@
             value="1"
           >
         </div>
-      </div>
+      </fieldset>
 
-      <div class="input__group">
-        <h4 class="input__header">Registration</h4>
+      <fieldset class="input__group">
+        <legend class="input__header">Registration</legend>
 
         <div class="input__one">
           <label for="email" class="input__label">E-mail:</label>
@@ -101,10 +101,10 @@
             autocomplete="off"
           >
         </div>
-      </div>
+      </fieldset>
 
-      <div class="input__group">
-        <h4 class="input__header">An interesting fact about you!</h4>
+      <fieldset class="input__group">
+        <legend class="input__header">An interesting fact about you!</legend>
 
         <div class="input__one">
           <label for="cats" class="input__label">Do you love cats?</label>
@@ -162,10 +162,10 @@
           </select>
         </div>
 
-      </div>
+      </fieldset>
 
-      <div class="input__group">
-        <h4 class="input__header">Additional info:</h4>
+      <fieldset class="input__group">
+        <legend class="input__header">Additional info:</legend>
 
         <div class="input__one">
           <label for="comments">Comments:</label>
@@ -186,9 +186,13 @@
             <option value="no">no</option>
           </select>
         </div>
-      </div>
+      </fieldset>
 
-      <input type="submit" name="submit">
+      <input
+        type="submit"
+        name="submit"
+        class="input__submit"
+      >
     </form>
 
     <script type="text/javascript" src="./main.js"></script>

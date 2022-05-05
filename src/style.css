@@ -1,1 +1,23 @@
 /* styles go here */
+
+body {
+  margin: 0;
+}
+
+.title {
+  margin: 20px 20px;
+}
+
+.input__group {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.input__one {
+  margin-bottom: 10px;
+}
+
+.input__submit {
+  margin: 0 20px;
+}
